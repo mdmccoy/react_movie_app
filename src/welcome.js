@@ -26,7 +26,7 @@ export default class Welcome extends Component {
   componentDidMount(){
     setTimeout(()=> {
         this.props.navigation.navigate('movielist')
-    },4000)
+    },1000)
   }
 
   render() {
